@@ -1,0 +1,15 @@
+i = 1
+j = 0
+n = int(input())
+for x in range(n):
+    print(str(i)*(n-j),str(j)*j,sep = '')
+    j = x + 2
+    
+    
+    
+/Output
+11111
+11122
+11333
+14444
+55555
